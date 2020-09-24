@@ -1,0 +1,785 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>  University of Michigan - Quiz </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://mcq-s3-bucket.s3.amazonaws.com/static/week2/style.css">
+    <link rel='icon' href="https://mcq-s3-bucket.s3.amazonaws.com/static/week2/images/LOGO_FAVICON.png" />
+    
+</head>
+
+<body>
+    <header>
+        <nav class="umblue" style="min-height: 150px">
+            <div class="nav-wrapper container" style="height: 100%">
+                <div class="brand-logo center" style="height: 100%">
+                    <img src="https://mcq-s3-bucket.s3.amazonaws.com/static/week2/images/UM_logo.svg" id="um-logo" class="responsive-img">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        
+        
+
+<div class="row">
+    
+
+    <p class="flow-text">
+        Hello Rishabh Pandey! You scored 7 out of 10.
+    </p>
+
+    <p class="flow-text">
+        Please click on the feedback to view your response.
+    </p>
+
+    <ul class="collapsible expandable popout">
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 1</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This will correctly extract Alice's data as 'Mathematics' would be a column in df.T and column names can be passed as a key to retrieve the contents of the entire column, i.e. Alice's informaion in this case</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following is the correct way to extract all information related to the student named <code>Alice</code> from the DataFrame <code>df</code> given below:<br><br><img src='/static/week2/images/quiz/quiz2_q10.png' height='150'></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df['Alice']</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df['Mathematics']</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.iloc['Mathematics']</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.T['Mathematics']</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 2</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This will just return a boolean mask of True's and False's instead of filtering the correct rows.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week2/images/quiz/quiz2_q6.png' height='180'><br><br>For the given DataFrame <code>df</code> shown above, we want to get all records with a <code>toefl score</code> greater than 105 but smaller than 115. Which of the following expressions is <b>incorrect</b> to perform the same?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>(df['toefl score'] > 105) & (df['toefl score'] < 115)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df[df['toefl score'].gt(105) & df['toefl score'].lt(115)]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df[(df['toefl'].isin(range(106, 115)))]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df[(df['toefl score'] > 105) & (df['toefl score'] < 115)]</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #ff9999; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 3</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                            
+                                
+                                    <h6 class="col s12"><strong>Correct answer:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line"><code>loc</code> and <code>iloc</code> are two useful and commonly used Pandas methods.</p>
+                                    <h6 class="col s12"><strong>Explanation:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line">loc and iloc are attributes of pandas.Series object, not methods.</p>
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">0/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following statements is <b>incorrect</b>?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">If <code>s</code> and <code>s1</code> are two pd.Series objects, we cannot use <code>s.append(s1)</code> to directly append <code>s1</code> to the existing series <code>s</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11">If <code>s</code> is a <code>pd.Series</code> object, then we can use <code>s.loc[label]</code> to get all data where the index is equal to label.</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>loc</code> and <code>iloc</code> are two useful and commonly used Pandas methods.</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">We can use <code>s.iteritems()</code> on a <code>pd.Series</code> object <code>s</code> to iterate on it.</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 4</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> There is no index of value 1 in s2, hence this will give an error.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">For the Series <code>s1</code> and <code>s2</code> defined below, which of the following statements <b>will give an error</b>?<br><br><code>import pandas as pd<br>s1 = pd.Series({1: 'Alice', 2: 'Jack', 3: 'Molly'})<br>s2 = pd.Series({'Alice': 1, 'Jack': 2, 'Molly': 3})</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>s2[1]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>s2.loc[1]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>s2.iloc[1]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>s1.loc[1]</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 5</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This is an incorrect way to drop values from the column named 'two' because the axis has not been specified as 1 (representing 'columns') and the default value of axis is 0.  It would yield the following error: KeyError: '['two'] not found in axis'.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following is an <b>incorrect</b> way to <code>drop</code> entries from the Pandas DataFrame named <code>df</code> shown below?<br><br><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week2/images/quiz/quiz2_q9.png' height='160'></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.drop('one', axis = 1)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.drop(['Utah', 'Colorado'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.drop('two')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.drop('Ohio')</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 6</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> All of these can be used to create a DataFrame in Pandas </p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following can be used to create a DataFrame in Pandas?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">2D ndarray</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">Pandas Series object</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">Python dict</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11">All of the above</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #ff9999; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 7</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                            
+                                
+                            
+                                
+                                    <h6 class="col s12"><strong>Correct answer:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line"><code>df.where(df['toefl score'] > 105)</code></p>
+                                    <h6 class="col s12"><strong>Explanation:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line">This will not work as <code>df.where()</code> will not drop any data we don’t want, it will just set their values to <code>nan</code>.</p>
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">0/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week2/images/quiz/quiz2_q6.png' height='180'><br>For the given DataFrame <code>df</code> we want to keep only the records with a <code>toefl score</code> greater than 105. Which of the following will <b>not</b> work?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.where(df['toefl score'] > 105)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df[df['toefl score'] > 105]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.where(df['toefl score'] > 105).dropna()</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">All of these will work</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #ff9999; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 8</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                            
+                                
+                            
+                                
+                            
+                                
+                                    <h6 class="col s12"><strong>Correct answer:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line"><code>df.rename(mapper = lambda x: x.upper(), axis = 1)</code></p>
+                                    <h6 class="col s12"><strong>Explanation:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line">This is incorrect because the rename method will return a new DataFrame by default.  We have to pass the result to our original DataFrame <code>df</code> or set the inplace parameter to 'True'.</p>
+                                
+                            
+                                
+                            
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">0/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Suppose we have a DataFrame named <code>df</code>. We want to change the original DataFrame <code>df</code> in a way that all the column names are cast to upper case. Which of the following expressions is <b>incorrect</b> to perform the same?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df = df.rename(mapper = lambda x: x.upper(), axis = 1)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.rename(mapper = lambda x: x.upper(), axis = 1, inplace = True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df = df.rename(mapper = lambda x: x.upper(), axis = 'column')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.rename(mapper = lambda x: x.upper(), axis = 1)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 9</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> S.iloc[i:j] can be used to retrieve Series rows from indices i to j-1</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><code>import pandas as pd<br>d = {<br>&nbsp;&nbsp;&nbsp;&nbsp;'1': 'Alice',<br>&nbsp;&nbsp;&nbsp;&nbsp;'2': 'Bob',<br>&nbsp;&nbsp;&nbsp;&nbsp;'3': 'Rita',<br>&nbsp;&nbsp;&nbsp;&nbsp;'4': 'Molly',<br>  &nbsp;&nbsp;&nbsp;&nbsp;'5': 'Ryan'<br>}<br>S = pd.Series(d)</code><br><br>In the above python code, the keys of the dictionary <code>d</code> represent student ranks and the value for each key is a student name. Which of the following can be used to extract rows with student ranks that are lower than 3?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>S.iloc[0:2]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>S.loc[0:3]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>S.iloc[0:3]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>S.loc[0:2]</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 10</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> The value of obj2['California'] is nan which is not the same as None, so this will return False</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">For the following code, which of the following statements will <b>not</b> return True?<br><br><code>import pandas as pd<br><br>sdata = {'Ohio': 35000, 'Texas': 71000, 'Oregon': 16000, 'Utah': 5000}<br>obj1 = pd.Series(sdata)<br>states = ['California', 'Ohio', 'Oregon', 'Texas']<br>obj2 = pd.Series(sdata, index=states)<br>obj3 = pd.isnull(obj2)<br></code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>import math<br>math.isnan(obj2['California'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>obj2['California'] == None</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>x = obj2['California']<br>obj2['California'] != x</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>obj3['California']</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+        
+    </ul>
+
+    
+
+    
+
+</div>
+
+
+    </main>
+    <footer class="page-footer umblue" style="margin-top:5rem"></footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+    
+<script src="https://mcq-s3-bucket.s3.amazonaws.com/static/week2/collapsible_result.js"></script>
+
+</body>
+
+</html>

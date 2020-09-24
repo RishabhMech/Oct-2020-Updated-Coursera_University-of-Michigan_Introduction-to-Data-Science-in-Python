@@ -1,0 +1,759 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>  University of Michigan - Quiz </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://mcq-s3-bucket.s3.amazonaws.com/static/week1/style.css">
+    <link rel='icon' href="https://mcq-s3-bucket.s3.amazonaws.com/static/week1/images/LOGO_FAVICON.png" />
+    
+</head>
+
+<body>
+    <header>
+        <nav class="umblue" style="min-height: 150px">
+            <div class="nav-wrapper container" style="height: 100%">
+                <div class="brand-logo center" style="height: 100%">
+                    <img src="https://mcq-s3-bucket.s3.amazonaws.com/static/week1/images/UM_logo.svg" id="um-logo" class="responsive-img">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        
+        
+
+<div class="row">
+    
+
+    <p class="flow-text">
+        Hello Rishabh Pandey! You scored 9 out of 10.
+    </p>
+
+    <p class="flow-text">
+        Please click on the feedback to view your response.
+    </p>
+
+    <ul class="collapsible expandable popout">
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 1</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This code will find any character that is not a linebreak that is within parenthesis, hence counting (a), (b), (c), and (d) which is same as counting the 4 fundamental freedoms</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">The text from the Canadian Charter of Rights and Freedoms section 2 lists the fundamental freedoms afforded to everyone. Of the four choices provided to replace <code>X</code> in the code below, which would accurately count the number of fundamental freedoms that Canadians have?<br><br><code>text=r'''Everyone has the following fundamental freedoms:<br>(a) freedom of conscience and religion;<br>(b) freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication;<br>(c) freedom of peaceful assembly; and<br>(d) freedom of association.<br>'''<br><br>import re<br><br>pattern = X<br>print(len(re.findall(pattern,text)))</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>'[a-d]'</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>'freedom'</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>'\(.\) '</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>'(.)'</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 2</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Bracketing the [https] means we are looking for any and as many of those letters.  Since the second web link begins with 'http' not 'https', 'https' should be surrounded by square brackets. Also, in 'A-Za-z0-9.', the '.' is required. </p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following regular expressions can be used to get the domain names (e.g. google.com, www.baidu.com) from the following sentence?<br><br><code>'I refer to https://google.com and I never refer http://www.baidu.com if I have to search anything'</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>(?<=https:\/\/)([.]*)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>(?<=https:\/\/)([A-Za-z0-9.]*)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>(?<=[https]:\/\/)([A-Za-z0-9.]*)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>(?<=https:\/\/)([A-Za-z0-9]*)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 3</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> The symbols '(', ')', and '-' that need to be extracted are properly separated by brackets and present (they aren't in other options).  Also, the space character '\s' is present in the right places to match the pattern.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following is the correct regular expression to extract all the phone numbers from the following chunk of text:<br><br><code>'Office of Research Administration: (734) 647-6333 | 4325 North Quad<br>Office of Budget and Financial Administration: (734) 647-8044 | 309 Maynard, Suite 205<br>Health Informatics Program: (734) 763-2285 | 333 Maynard, Suite 500<br>Office of the Dean: (734) 647-3576 | 4322 North Quad<br>UMSI Engagement Center: (734) 763-1251 | 777 North University<br>Faculty Adminstrative Support Staff: (734) 764-9376 | 4322 North Quad'</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>\d{3}\s\d{3}[-]\d{4}</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>[(]\d{3}[)]\d{3}[-]\d{4}</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>\d{3}[-]\d{3}[-]\d{4}</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>[(]\d{3}[)]\s\d{3}[-]\d{4}</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 4</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> The pattern we are using is a single A or a double A, hence we will find the results as (A)C(AA)B(AA)C(AA)(A)B.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">What will be the output of the variable <code>L</code> after the following code is executed?<br><br><code>import re<br><br>s = 'ACAABAACAAAB'<br>result = re.findall('A{1,2}', s)<br>L = len(result)</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11">5</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">4</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">12</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">8</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 5</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Here, the caret ^ denotes the beginning of the string, and hence will extract the first 'AC' from the string s.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><code>import re<br>s = 'ACBCAC'</code><br><br>For the given string, which of the following regular expressions can be used to check if the string starts with 'AC'?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>re.findall('[^A]C', s)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>re.findall('AC', s)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>re.findall('^[AC]', s)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>re.findall('^AC', s)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 6</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Array indices start with 0 and an array slice from m:n includes elements from indices m to n-1.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Given the 6x6 NumPy array r shown below, which of the following options would slice the shaded elements?<br><br><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week1/images/quiz/quiz1_q4.png' height='250'></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>r[2:3,2:3]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>r[2:4,2:4]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>r[[2,4],[2,4]]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>r[[2,3],[2,3]]</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #ff9999; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 7</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                            
+                                
+                                    <h6 class="col s12"><strong>Correct answer:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line"><code>[[0 0 1][1 1 1]]</code></p>
+                                    <h6 class="col s12"><strong>Explanation:</strong></h6>
+                                    <p class="col s12" style="white-space: pre-line">Array slices are passed by reference; After the statement 'new=old', any changes made to 'new' will carry over to 'old', so 'old' will not remain unchanged</p>
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">0/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following is the correct output for the code given below?<br><br><code>import numpy as np<br><br>old = np.array([[1, 1, 1], [1, 1, 1]])<br>new = old<br>new[0, :2] = 0<br>print(old) </code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>[[0 0 1][1 1 1]]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>[[1 1 0][1 1 0]]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>[[1 1 1][1 1 1]]</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>[[0 1 1][0 1 1]]</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 8</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This is a correct expression because the two arrays have the same shape as both are 1-dim np.arrays with 4 elements.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider the following variables in Python:<br><br> <code> a1 = np.random.rand(4)<br>  a2 = np.random.rand(4, 1)<br> a3 = np.array([[1, 2, 3, 4]])<br> a4 = np.arange(1, 4, 1)<br> a5 = np.linspace(1 ,4, 4)<br> </code><br> Which of the following statements regarding these variables is correct?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>a1.shape == a2.shape</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>a5.shape == a1.shape</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>a3.shape == a4.shape</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>a4.ndim() == 1</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 9</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> The ndim of the two inputs in D are different. </p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week1/images/quiz/quiz1_q1.png' height='120'><br>Assume <code>a</code> and <code>b</code> are two (20, 20) numpy arrays. The L2-distance (defined above) between two equal dimension arrays can be calculated in python as follows:<br> <br> <code> def l2_dist(a, b):<br> &nbsp;&nbsp;&nbsp;&nbsp;result = ((a - b) * (a - b)).sum()<br> &nbsp;&nbsp;&nbsp;&nbsp;result = result ** 0.5<br> &nbsp;&nbsp;&nbsp;&nbsp;return result</code><br><br> Which of the following expressions using this function will <b>give an error</b>?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>l2_dist(np.reshape(a, (20 * 20)), np.reshape(b, (20 * 20, 1)))</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>l2_dist(np.reshape(a, (20 * 20)), np.reshape(b, (20 * 20)))</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>l2_dist(a, b)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>l2_dist(a.T, b.T)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 10</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> [au] means any character from 'a' and 'o' (or both) hence only 'bat' and 'bot' would be extracted</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">What will be the output of the following code?<br><br><code>import re<br>string = 'bat, lat, mat, bet, let, met, bit, lit, mit, bot, lot, mot'<br>result = re.findall('b[ao]t', string)<br>print(result)<br></code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>'bat, bet, bit, bot'</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>'bat, bot'</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>['bat', 'bet', 'bit', 'bot']</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>['bat', 'bot']</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+        
+    </ul>
+
+    
+
+    
+
+</div>
+
+
+    </main>
+    <footer class="page-footer umblue" style="margin-top:5rem"></footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+    
+<script src="https://mcq-s3-bucket.s3.amazonaws.com/static/week1/collapsible_result.js"></script>
+
+</body>
+
+</html>

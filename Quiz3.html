@@ -1,0 +1,746 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>  University of Michigan - Quiz </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://mcq-s3-bucket.s3.amazonaws.com/static/week3/style.css">
+    <link rel='icon' href="https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/LOGO_FAVICON.png" />
+    
+</head>
+
+<body>
+    <header>
+        <nav class="umblue" style="min-height: 150px">
+            <div class="nav-wrapper container" style="height: 100%">
+                <div class="brand-logo center" style="height: 100%">
+                    <img src="https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/UM_logo.svg" id="um-logo" class="responsive-img">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        
+        
+
+<div class="row">
+    
+
+    <p class="flow-text">
+        Hello Rishabh Pandey! You scored 10 out of 10.
+    </p>
+
+    <p class="flow-text">
+        Please click on the feedback to view your response.
+    </p>
+
+    <ul class="collapsible expandable popout">
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 1</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This is incorrect as 'vegetable' is not a valid key. Only the column names are valid keys for this operation.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Which of the following is <strong>not</strong> a valid expression to create a Pandas GroupBy object from the DataFrame shown below?<br><br><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/quiz/quiz3_q9.png' height='180'></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby('class', axis = 0)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby('class')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.groupby('vegetable')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>grouped = df.groupby(['class', 'avg calories per unit'])</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 2</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Correct, when we set the second parameter as ‘M’, we are actually creating a pd.Period with granularity as Month, so when we add 5 to it, we get the Period after 5 months.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">What will be the result of the following code?: <br><br><code>import pandas as pd<br>pd.Period('01/12/2019', 'M') + 5 </code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>Period('2019-06', 'M')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>Period('2019-12', 'M')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>Period('2019-12-01', 'D')</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>Period('2019-12-06', 'D')</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 3</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> When using groupby, the column you want to organize your results by is used as the argument for the groupby method.  Also, since there are nan values, np.nanmean and np.nansd will be used rather than the simple mean and standard deviation.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider a DataFrame <code>df</code> with columns <code>name</code>, <code>reviews_per_month</code>, and <code>review_scores_value</code>. This DataFrame also consists of several missing values. Which of the following can be used to:<br> i) calculate the number of entries in the <code>name</code> column, and<br> ii) calculate the mean and standard deviation of the <code>reviews_per_month</code>, grouping by different <code>review_scores_value</code>? </p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.groupby('review_scores_value').agg({'name': len, 'reviews_per_month': (np.nanmean, np.nanstd)})</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.agg({'name': len, 'reviews_per_month': (np.nanmean, np.nanstd)}</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.agg({'name': len, 'reviews_per_month': (np.mean, np.std)}</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby('review_scores_value').agg({'name': len, 'reviews_per_month': (np.mean, np.std)})</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 4</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Using pd.merge() will select the first DataFrame as the left table and the second DataFrame as the right table. In order to get all records in the student_df, we can put it on the right side of 'right' join and join on both the 'First Name' and 'Last Name' columns.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12"><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/quiz/quiz3_q3.png' height='180'><br><br>Consider the DataFrames above, both of which have a standard integer based index. Which of the following can be used to get the data of all students (from <code>student_df</code>) and merge it with their staff roles where <code>nan</code> denotes no role?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>result_df = pd.merge(staff_df, student_df, how='right', on=['First Name', 'Last Name'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>result_df = pd.merge(staff_df, student_df, how='outer', on=['First Name', 'Last Name'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>result_df = pd.merge(student_df, staff_df, how='inner', on=['First Name', 'Last Name'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>result_df = pd.merge(student_df, staff_df, how='right', on=['First Name', 'Last Name'])</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 5</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> This is correct as the apply() function can be used to apply a function along an axis of a DataFrame.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider a DataFrame <code>df</code>. We want to create groups based on the column <code>group_key</code> in the DataFrame and fill the <code>nan</code> values with group means using:<br><br><code>filling_mean = lambda g: g.fillna(g.mean())</code><br><br>Which of the following is correct for performing this task?</p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby(group_key).transform(filling_mean)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby(group_key).filling_mean()</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.groupby(group_key).aggregate(filling_mean)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.groupby(group_key).apply(filling_mean)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 6</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> The result would be the end date of the month, which is exactly the next day of the given date - 11/30/2019. So when we call the weekay() on the resultant pd.Timestamp, it will be 5.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Assume that the date '11/29/2019' in MM/DD/YYYY format is the 4th day of the week, what will be the result of the following?<br><br><code>import pandas as pd<br>(pd.Timestamp('11/29/2019') + pd.offsets.MonthEnd()).weekday()</code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">7</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">6</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11">5</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">4</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 7</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> In the pivot table, the column 'country' is the index (not Rank_Level) and 'margins=True' must be there to get the 'All' column added to the pivot_table.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider the DataFrame <code>df</code> shown in the image below. Which of the following can return the head of the pivot table as shown in the image below <code>df</code>? <br><br><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/quiz/quiz3_q6.png' height='400'><br></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>df.pivot_table(values='score', index='country', columns='Rank_Level', aggfunc=[np.median], margins=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.pivot_table(values='score', index='country', columns='Rank_Level', aggfunc=[np.median])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.pivot_table(values='score', index='Rank_Level', columns='country', aggfunc=[np.median], margins=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>df.pivot_table(values='score', index='Rank_Level', columns='country', aggfunc=[np.median])</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 8</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> For the inequality in <code>result</code> to work, the list <code>my_categories</code> needs to be ordered which can be done using CategoricalDtype.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider the Dataframe <code>df</code> below, instatiated with a list of grades, ordered from best grade to worst. Which of the following options can be used to substitute <code><b>X</b></code> in the code given below, if we want to get all the grades <b>between</b> 'A' and 'B' where 'A' is better than 'B'?<br><br><code>import pandas as pd<br><br>df = pd.DataFrame(['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D'], index=['excellent', 'excellent', 'excellent', 'good', 'good', 'good', 'ok', 'ok', 'ok', 'poor', 'poor'], columns = ['Grades'])<br>my_categories= <b>X</b><br>grades = df['Grades'].astype(my_categories)<br>result = grades[(grades>'B') & (grades<'A')]<br> </code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>my_categories = pd.CategoricalDtype(categories=['D', 'D+', 'C-', 'C', 'C+', 'B-', 'B', 'B+', 'A-', 'A', 'A+'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>(my_categories=['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D'], ordered=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>my_categories = pd.CategoricalDtype(categories=['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D'])</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>my_categories = pd.CategoricalDtype(categories=['D', 'D+', 'C-', 'C', 'C+', 'B-', 'B', 'B+', 'A-', 'A', 'A+'], ordered=True)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 9</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> axis = 1 represents columns and axis=0 (the default) represents rows.  Since <code>frames</code> represents all column titles, both methods need to act on columns, so both x and y will be 1</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider a DataFrame named <code>df</code> with columns named <code>P2010</code>, <code>P2011</code>, <code>P2012</code>, <code>P2013</code>, <code>P2014</code> and <code>P2015</code> containing float values.  We want to use the apply method to get a new DataFrame named <code>result_df</code> with a new column <code>AVG</code>. The <code>AVG</code> column should average the float values across <code>P2010</code> to <code>P2015</code>. The apply method should also remove the 6 original columns (<code>P2010</code> to <code>P2015</code>). For that, what should be the value of <code>x</code> and <code>y</code> in the given code?<br><br><code>frames = ['P2010', 'P2011', 'P2012', 'P2013','P2014', 'P2015']<br>df['AVG'] = df[frames].apply(lambda z: np.mean(z), axis=x)<br>result_df = df.drop(frames,axis=y)<br></code></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">x = 0<br>y = 0</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11">x = 1<br>y = 1</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">x = 0<br>y = 1</span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11">x = 1<br>y = 0</span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+            <li>
+
+    
+    <div class="collapsible-header" style="background-color: #adebad; padding-bottom: 0; border-color: black; border: 1px solid;">
+    
+        <div class="row" style="width: 100%; margin-bottom: 0;">
+            <h5 class="row" style="margin-bottom: 0;">Question 10</h5>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s10">
+                    <div class="row">
+                        
+                        <p class="col s12" style="white-space: pre-line"><strong>Feedback:</strong> Using pd.merge() will select the first DataFrame as the left table and the second DataFrame as the right table. In order to get all records in the student_df, we can put it on the left side of 'left' join.</p>
+                        
+                    </div>
+                </div>
+        
+                <div class="col s2">
+                    <div class="row">
+                        <h6 class="col s12"><strong>Score:</strong></h6>
+                        
+                        <h5 class="col s12" style="margin-top: 0;">1/1</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="collapsible-body">
+        <div class="row">
+            <h6 class="col s12"><strong>Question:</strong></h6>
+            <p class="col s12">Consider the two DataFrames shown below, both of which have <code>Name</code> as the index. Which of the following expressions can be used to get the data of all students (from student_df) including their roles as staff, where <code>nan</code> denotes no role?<br><br><img src='https://mcq-s3-bucket.s3.amazonaws.com/static/week3/images/quiz/quiz3_q1.png' height='180'></p>
+        </div>
+            
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>pd.merge(staff_df, student_df, how='left', left_index=True, right_index=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>pd.merge(staff_df, student_df, how='right', left_index=False, right_index=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_checked</i>
+            
+            <span class="col s11"><code>pd.merge(student_df, staff_df, how='left', left_index=True, right_index=True)</code></span>
+        </div>
+        
+        <div class="row">
+            
+                <i class="material-icons col s1" style="vertical-align: bottom;">radio_button_unchecked</i>
+            
+            <span class="col s11"><code>pd.merge(student_df, staff_df, how='right', left_index=True, right_index=True)</code></span>
+        </div>
+        
+    </div>
+    
+</li>
+        
+        
+    </ul>
+
+    
+
+    
+
+</div>
+
+
+    </main>
+    <footer class="page-footer umblue" style="margin-top:5rem"></footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+    
+<script src="https://mcq-s3-bucket.s3.amazonaws.com/static/week3/collapsible_result.js"></script>
+
+</body>
+
+</html>
